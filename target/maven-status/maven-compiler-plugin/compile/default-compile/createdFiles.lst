@@ -1,1 +1,2 @@
-bean\HolaMundoAction.class
+beans\actions\MostrarPersonaAction.class
+beans\actions\SaludarAction.class
