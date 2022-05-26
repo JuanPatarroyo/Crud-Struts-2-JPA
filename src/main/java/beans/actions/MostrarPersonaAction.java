@@ -41,5 +41,15 @@ public class MostrarPersonaAction extends ActionSupport {
         this.nombre = nombre;
     }
     
+    public String getTitulo(){
+        return getText("persona.titulo");
+    }
     
+    public String getValor(){
+        return getText("persona.valor");
+    }
+    
+    public String getBoton(){
+        return getText("persona.boton");
+    }
 }

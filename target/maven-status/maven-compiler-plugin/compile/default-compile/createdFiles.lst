@@ -1,2 +1,3 @@
-beans\actions\MostrarPersonaAction.class
 beans\actions\SaludarAction.class
+beans\actions\MostrarPersonaAction.class
+beans\actions\LoginAction.class

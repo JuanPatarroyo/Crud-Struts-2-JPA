@@ -10,16 +10,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Mostrar Persona con Struts 2</title>
+        <title><s:property value="titulo"/></title>
     </head>
     <body>
-        <h1>Personas</h1>
+        <h1><s:property value="titulo"/></h1>
         <s:form>
             <s:textfield name="nombre"/>
-            <s:submit value="Enviar"/>
+            <s:submit key="persona.boton" name="submit"/>
         </s:form>
         <div>
-            Nombre proporcionado: <s:property value="nombre"/>
+            <s:property value="valor"/> :
+            <s:property value="nombre"/>
         </div>
     </body>
 </html>
