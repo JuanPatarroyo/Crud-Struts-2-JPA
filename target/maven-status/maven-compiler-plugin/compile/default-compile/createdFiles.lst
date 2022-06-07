@@ -1,7 +1,7 @@
-beans\actions\SaludarAction.class
 beans\actions\MostrarPersonaAction.class
-beans\actions\ValidarUsuarioAction.class
 beans\actions\LoginAction.class
 co\com\model\Domicilio.class
-co\com\model\Persona.class
 beans\actions\PersonasAction.class
+beans\actions\SaludarAction.class
+beans\actions\ValidarUsuarioAction.class
+co\com\model\Persona.class
