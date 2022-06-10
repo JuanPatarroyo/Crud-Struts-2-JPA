@@ -1,8 +1,6 @@
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\SaludarAction.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\ValidarUsuarioAction.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\MostrarPersonaAction.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\model\Persona.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\LinkAction.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\model\Domicilio.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\LoginAction.java
-C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\beans\actions\PersonasAction.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\service\PersonServiceImplementation.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\data\dto\Person.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\action\PersonAction.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\data\PersonDaoImplementation.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\data\PersonDao.java
+C:\Users\jpatarroyo\Documents\GitHub\AppStruts2\src\main\java\co\com\service\PersonService.java

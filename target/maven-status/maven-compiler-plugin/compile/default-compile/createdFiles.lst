@@ -1,8 +1,6 @@
-beans\actions\MostrarPersonaAction.class
-beans\actions\LoginAction.class
-co\com\model\Domicilio.class
-beans\actions\PersonasAction.class
-beans\actions\SaludarAction.class
-beans\actions\ValidarUsuarioAction.class
-beans\actions\LinkAction.class
-co\com\model\Persona.class
+co\com\data\dto\Person.class
+co\com\data\PersonDao.class
+co\com\service\PersonService.class
+co\com\data\PersonDaoImplementation.class
+co\com\service\PersonServiceImplementation.class
+co\com\action\PersonAction.class
