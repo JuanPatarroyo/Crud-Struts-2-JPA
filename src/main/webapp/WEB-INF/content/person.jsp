@@ -9,11 +9,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><s:text name="person.title" /></title>
+        <title><s:text name="form.title" /></title>
     </head>
     <body>
-        <h1><s:text name="person.title" /></h1>
-
+        <h1><s:text name="form.title" /></h1>
+        <a href="<s:url action="addPerson"/>"><s:text name="form.add" /></a>
         <s:if test="people.size() > 0">
             <div>
                 <table border="1">
@@ -23,6 +23,8 @@
                         <th><s:text name="p.surname" /></th>
                         <th><s:text name="p.secondSurname" /></th>
                         <th><s:text name="p.email" /></th>
+                        <th><s:text name="form.edit" /></th>
+                        <th><s:text name="form.delete" /></th>
                     </tr>
                     <s:iterator value="people">
                         <tr>
@@ -31,16 +33,22 @@
                             <td><s:property value="surname" /></td>
                             <td><s:property value="lastSurname" /></td>
                             <td><s:property value="email" /></td>
-                        </tr>
+                            <td>
+                                <s:url action="updatePerson" var="updateUrl">
+                                    <s:param name="person.id" value="%{id}"></s:param>
+                                </s:url>
+                                <s:a href="%{updateUrl}"><s:text name="form.edit" /></s:a>
+                                </td>
+                                <td>
+                                <s:url action="deletePerson" var="deleteUrl">
+                                    <s:param name="person.id" value="%{id}"></s:param>
+                                </s:url>
+                                <s:a href="%{deleteUrl}"><s:text name="form.delete" /></s:a>
+                                </td>
+                            </tr>
                     </s:iterator>
                 </table>
             </div>
         </s:if>
-
-        <s:form>
-            <s:submit key="person.button" name="submit" />
-        </s:form>
-
-        <div><s:text name="person.count" />: <s:property value="peopleCount" /></div>
     </body>
 </html>
